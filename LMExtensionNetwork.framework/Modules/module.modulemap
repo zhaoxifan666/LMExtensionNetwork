@@ -1,0 +1,11 @@
+framework module LMExtensionNetwork {
+  umbrella header "LMExtensionNetwork.h"
+  export *
+
+  module * { export * }
+}
+
+module LMExtensionNetwork.Swift {
+  header "LMExtensionNetwork-Swift.h"
+  requires objc
+}
